@@ -1,0 +1,39 @@
+{"YogaPose": {
+    "name": {"type": "string", "description": "Назва вправи (українською)"},
+    "sanskrit_name": {"type": "string", "description": "Назва вправи (санскритом)"},
+    "description": {"type": "string", "description": "Повний текстовий опис змісту вправи та методики її виконання."},
+    "difficulty_level": {"type": "string", "description": "Рівень складності (напр. початковий/середній/високий)"},
+    "category": {"type": "string", "description": "Категорія вправи (напр. стоячи, сидячи, і т.д.)"},
+    "asana_details": {
+      "breathing": {"type": "string", "description": "Опис техніки дихання під час виконання асани."},
+      "maintained_without_tension": {"type": "string", "description": "Інструкції щодо утримання пози без зайвого напруження."},
+      "focus_stability_balance": {"type": "string", "description": "Опис точок концентрації та методів збереження рівноваги."}},
+    "steps": [ {
+        "stepNumber": {"type": "integer", "description": "Порядковий номер кроку виконання."},
+        "description": {"type": "string", "description": "Текстовий опис дій на конкретному кроці."},
+        "duration": {"type": "integer", "description": "Час затримки пози у секундах."},
+        "bodyPart": {"type": "string", "description": "Назва частини тіла, на якій акцентується увага."},
+        "angles": [
+          { "joint1": {"type": "string", "description": "Назва 1-го суглоба за MediaPipe."},
+            "base_joint": {"type": "string", "description": "Назва опорного суглоба-вершини."},
+            "joint2": {"type": "string", "description": "Назва 2-го суглоба за MediaPipe."},
+            "min_angle": {"type": "number", "description": "Мінімальний поріг кута у градусах."},
+            "max_angle": {"type": "number", "description": "Максимальний поріг кута у градусах."} } ] } ],
+    "modifications": [
+      { "variations": {"type": "string", "description": "Опис варіацій виконання вправи."},
+        "adaptationOptions": {"type": "string", "description": "Варіанти адаптації під фізичні особливості."} } ],
+    "commonMistakes": [
+      { "frequentErrors": {"type": "string", "description": "Перелік типових помилок користувачів."},
+        "incorrectTechniques": {"type": "string", "description": "Опис технічно неправильного виконання."} } ],
+    "safetyMeasures": [
+      { "precautions": {"type": "string", "description": "Заходи безпеки під час виконання."},
+        "contraindications": {"type": "string", "description": "Медичні протипоказання."},
+        "warnings": {"type": "string", "description": "Критичні застереження щодо травм."} } ],
+    "equipment": [
+      { "name": {"type": "string", "description": "Назва необхідного інвентарю."},
+        "usage": {"type": "string", "description": "Опис використання інвентарю."} } ],
+    "benefits": [
+      { "positiveEffects": {"type": "string", "description": "Загальний позитивний вплив на організм."},
+        "physicalBenefits": {"type": "string", "description": "Користь для фізичного здоров'я."},
+        "mentalBenefits": {"type": "string", "description": "Користь для ментального стану."} }
+] } }

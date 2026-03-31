@@ -1,0 +1,156 @@
+{"YogaPose": {
+    "name": "Поза воїна ІІ (Warrior II Pose)",
+	"sanskrit_name": "Virabhadrasana II",
+    "description": "У цій позі переднє коліно згинається, створюючи розтяжку стегон, ваші руки витягуються в обидва боки, погляд залишається спокійним і стійким у напрямку передньої руки.",
+    "difficulty_level": "Beginner/Intermediate",
+    "category": "Standing",
+    "asana_details": {
+      "breathing": "Зробіть від 5 до 10 циклів дихання (приблизно 40 секунд).",
+      "maintained_without_tension": "Усвідомте дискомфорт, тримайте м'язи обличчя розслабленими.",
+      "focus_stability_balance": "Погляд поверх передньої руки."},
+    "steps": [ {
+        "stepNumber": 1,
+        "description": "З «Пози собаки» крок правою ногою вперед.",
+        "duration": 3,
+		"bodyPart": "Права нога",
+        "angles": [ {
+            "joint1": "RIGHT_HIP",
+            "base_joint": "RIGHT_KNEE",
+            "joint2": "RIGHT_ANKLE",
+            "min_angle": 120.0,
+            "max_angle": 170.0
+          } ] },
+      { "stepNumber": 2,
+        "description": "Зігніть праве коліно на 90 градусів.",
+        "duration": 5,
+		"bodyPart": "Права нога",
+        "angles": [ {
+            "joint1": "RIGHT_HIP",
+            "base_joint": "RIGHT_KNEE",
+            "joint2": "RIGHT_ANKLE",
+            "min_angle": 85.0,
+            "max_angle": 95.0
+          } ] },
+      { "stepNumber": 3,
+        "description": "Опустіть ліву п’яту, стопа під 90 градусів.",
+        "duration": 4,
+		"bodyPart": "Ліва нога",
+        "angles": [ {
+            "joint1": "LEFT_HIP",
+            "base_joint": "LEFT_ANKLE",
+            "joint2": "LEFT_FOOT_INDEX",
+            "min_angle": 80.0,
+            "max_angle": 100.0
+          } ] },
+      { "stepNumber": 4,
+        "description": "Розподіліть масу тіла рівномірно.",
+        "duration": 3,
+		"bodyPart": "Ноги",
+        "angles": [ {
+            "joint1": "LEFT_ANKLE",
+            "base_joint": "LEFT_HIP",
+            "joint2": "RIGHT_HIP",
+            "min_angle": 80.0,
+            "max_angle": 110.0
+          } ] },
+      { "stepNumber": 5,
+        "description": "На вдиху підніміть тулуб і руки вверх.",
+        "duration": 3,
+		"bodyPart": "Руки",
+        "angles": [ {
+            "joint1": "LEFT_HIP",
+            "base_joint": "LEFT_SHOULDER",
+            "joint2": "LEFT_ELBOW",
+            "min_angle": 80.0,
+            "max_angle": 100.0
+          } ] },
+      { "stepNumber": 6,
+        "description": "Витягніть руки літерою Т.",
+        "duration": 3,
+		"bodyPart": "Руки",
+        "angles": [ {
+            "joint1": "LEFT_WRIST",
+            "base_joint": "LEFT_SHOULDER",
+            "joint2": "RIGHT_SHOULDER",
+            "min_angle": 170.0,
+            "max_angle": 185.0
+          } ] },
+      { "stepNumber": 7,
+        "description": "Руки паралельно підлозі, долоні вниз.",
+        "duration": 3,
+		"bodyPart": "Руки",
+        "angles": [ {
+            "joint1": "RIGHT_SHOULDER",
+            "base_joint": "RIGHT_ELBOW",
+            "joint2": "RIGHT_WRIST",
+            "min_angle": 175.0,
+            "max_angle": 185.0
+          } ] },
+      { "stepNumber": 8,
+        "description": "Поверніть голову вперед.",
+        "duration": 2,
+		"bodyPart": "Голова",
+        "angles": [ {
+            "joint1": "LEFT_SHOULDER",
+            "base_joint": "NOSE",
+            "joint2": "RIGHT_SHOULDER",
+            "min_angle": 80.0,
+            "max_angle": 100.0
+          } ] },
+      { "stepNumber": 9,
+        "description": "Стегна повернуті назовні.",
+        "duration": 2,
+		"bodyPart": "Стегна",
+        "angles": [ {
+            "joint1": "LEFT_KNEE",
+            "base_joint": "LEFT_HIP",
+            "joint2": "RIGHT_HIP",
+            "min_angle": 160.0,
+            "max_angle": 180.0
+          } ] },
+      { "stepNumber": 10,
+        "description": "Утримання пози (статична фаза).",
+        "duration": 40,
+		"bodyPart": "Усе тіло",
+        "angles": [ {
+            "joint1": "RIGHT_HIP",
+            "base_joint": "RIGHT_KNEE",
+            "joint2": "RIGHT_ANKLE",
+            "min_angle": 70.0,
+            "max_angle": 120.0
+          }, {
+            "joint1": "LEFT_WRIST",
+            "base_joint": "LEFT_SHOULDER",
+            "joint2": "RIGHT_WRIST",
+            "min_angle": 160.0,
+            "max_angle": 200.0
+          } ] },
+      { "stepNumber": 11,
+        "description": "Повернення в позу собаки.",
+        "duration": 5,
+		"bodyPart": "Права нога",
+        "angles": [ {
+            "joint1": "RIGHT_SHOULDER",
+            "base_joint": "RIGHT_HIP",
+            "joint2": "RIGHT_KNEE",
+            "min_angle": 45.0,
+            "max_angle": 70.0
+          } ] } ],
+    "modifications": [ {
+        "variations": "Виконання на стільці; менш глибокий випад.",
+        "adaptationOptions": "Зменшення дистанції між ногами для початківців."} ],
+    "commonMistakes": [ {
+        "frequentErrors": "Коліно завалюється всередину, опускання рук.",
+        "incorrectTechniques": "Стегна спрямовані вперед, а не вбік."} ],
+    "safetyMeasures": [ {
+        "precautions": "Тримайте шию в нейтральному положенні при болях.",
+        "contraindications": "Травми колін, стегон або спини.",
+		"warnings": "Будьте уважні при болях у шиї."} ],
+	"equipment": [
+      { "name": "Назва необхідного інвентарю (напр. блок, ремінь)",
+        "usage": "Опис того, як саме використовувати цей інвентар у вправі."} ],
+    "benefits": [ {
+        "positiveEffects": "Зміцнює все тіло, покращує поставу.",
+        "physicalBenefits": "Зміцнює ядро, ноги та розтягує грудну клітку.",
+        "mentalBenefits": "Розвиває концентрацію та витривалість."
+ } ] } }
